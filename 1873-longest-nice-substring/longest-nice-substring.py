@@ -7,8 +7,6 @@ class Solution(object):
         
         if len(s) < 2:
             return ""
-
-        
         for i, ch in enumerate(s):
             if ch.swapcase() not in s:
                
