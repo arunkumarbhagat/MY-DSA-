@@ -4,8 +4,8 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        min_price = float('inf')   # start with a very high value
-        max_profit = 0             # initially no profit
+        min_price = float('inf')   
+        max_profit = 0            
 
         for price in prices:
             # update the minimum price so far
