@@ -3,8 +3,7 @@ class Solution:
         if not head or not head.next:
             return True
 
-        # Step 1: Find the middle using slow/fast pointers
-        # After this, 'slow' will be at the start of the second half
+       
         slow = fast = head
         while fast and fast.next:
             slow = slow.next
