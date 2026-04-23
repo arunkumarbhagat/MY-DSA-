@@ -26,4 +26,4 @@ class Solution(object):
             for neighbor in graph[node]:
                 queue.append(neighbor)
         
-        return False      
+        return False
